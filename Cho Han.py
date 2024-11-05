@@ -66,7 +66,7 @@ def main():
         print(f'The first number is {first_roll}, the second number is {second_roll}.'
               f'\nIt`s {sum_of_rolls}.')
         if calculating(choice, sum_of_rolls):
-            print('You win!')
+            print(f'You win {2*bet}. Commission -40 money!')
             money += (2*bet-40)
         else:
             print('You lose!')
